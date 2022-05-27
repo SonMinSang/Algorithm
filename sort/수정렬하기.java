@@ -18,10 +18,10 @@ public class 수정렬하기 {
 		}
 		for (int i = 1; i < N; i++) {
 			for (int j = 1; j < N - i + 1; j++) {
-				if (A[i - 1] > A[i]) {
-					temp = A[i - 1];
-					A[i - 1] = A[i];
-					A[i] = temp;
+				if (A[j - 1] > A[j]) {
+					temp = A[j - 1];
+					A[j - 1] = A[j];
+					A[j] = temp;
 				}
 			}
 		}
